@@ -14,7 +14,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'index.html',
+            template: './src/index.html',
+            filename: './index.html'
         }),
 
         // Add your plugins here
@@ -29,7 +30,7 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader','css-loader'],
+                use: ['style-loader', 'css-loader'],
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/,

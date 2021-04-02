@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        "rootDir": ".",
+        "sourceRoot": "./src",
+        "sourceMap": true,
         "outDir": "./dist",
         "allowSyntheticDefaultImports": true,
         "noImplicitAny": true,
@@ -8,6 +11,5 @@
         "allowJs": true,
         "jsx": "react"
     },
-    "files": ["src/index.ts"],
     "exclude": ["./node_modules", "./dist", "./webpack.config.js"]
 }

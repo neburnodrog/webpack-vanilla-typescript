@@ -1,4 +1,4 @@
-# 🚀 First webpack bundle!
+# 🚀 My personal guide to webpack bundle with typescript!
 
 ## initial project setup (steps taken)
 
@@ -60,3 +60,5 @@ $ npx eslint --init                     // here the types for eslint are install
 webpack.config.js
 
 ```
+
+---
