@@ -1,5 +1,7 @@
 # 🚀 My personal guide to webpack bundle with typescript!
 
+mainly following the webpack docs
+
 ## initial project setup (steps taken)
 
 ---
